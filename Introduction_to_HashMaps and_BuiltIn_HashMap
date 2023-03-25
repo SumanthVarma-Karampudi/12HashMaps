@@ -1,0 +1,8 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>HashMaps_Implementation>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+HashMaps can be implemented using 
+    1. Binary Search Tree  -O(logN)
+    2. HashTable           -O(1)
+
+InBuilt_HashMap:
+    1.Map                -> BST         -> O(logN)
+    2.Unordered Map      ->HashTable    ->O(1)
