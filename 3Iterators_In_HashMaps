@@ -19,7 +19,7 @@ int main() {
 		it++;
 	}
 
-	// find
+	// find() - returns an iterator
 	unordered_map<string, int>::iterator it2 = ourmap.find("abc");
 	ourmap.erase(it2, it2 + 4);
 	
