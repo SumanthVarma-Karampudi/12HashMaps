@@ -1,0 +1,6 @@
+-----------------------------------------Bucket Array_Hashfunction & Collision handling-----------------------------------------------------------
+
+Two methods of collision handling:
+1. CLOSED HASHING (SEPERATE CHAINING) - when multiple keys go to the same index then they are placed in linked list and the value of the particular
+index will be pointing to the starting node of the linked_list called as head.
+2. OPEN ADDRESSING - Based on formula
