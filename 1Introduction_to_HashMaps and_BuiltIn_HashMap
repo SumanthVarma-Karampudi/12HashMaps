@@ -1,11 +1,16 @@
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>HashMaps_Implementation>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+-------------------------------------------------------HashMaps_Implementation----------------------------------------------------------------------
+
 HashMaps can be implemented using 
     1. Binary Search Tree  -O(logN)
     2. HashTable           -O(1)
 
+
+
 InBuilt_HashMap:
     1.Map                -> BST         -> O(logN)
     2.Unordered Map      ->HashTable    ->O(1)
+
+-------------------------------------------------------------INBUILT-QUEUE----------------------------------------------------------------------------------
 
 #include <iostream>
 #include <unordered_map>
@@ -40,4 +45,5 @@ int main() {
 	if (ourmap.count("ghi") > 0) {
 		cout << "ghi is present" << endl;
 	}
+
 }
